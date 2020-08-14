@@ -4,23 +4,47 @@ from telethon import TelegramClient
 from telethon import sync, events
 import re
 import json
-
+import os
+import sys
+from colorama import init, Fore, Back, Style
+import time
 
 db = sqlite3.connect('Account.db')
 cur = db.cursor()
 
 x = 1
 m = 0
+init()
+
+def console_picture():
+    print(Style.BRIGHT + Fore.YELLOW)
+    print("██████╗  █████╗ ██╗      █████╗ ███╗   ██╗ ██████╗███████╗    ██╗  ████████╗ ██████╗")
+    time.sleep(0.1)
+    print("██╔══██╗██╔══██╗██║     ██╔══██╗████╗  ██║██╔════╝██╔════╝    ██║  ╚══██╔══╝██╔════╝")
+    time.sleep(0.1)
+    print("██████╔╝███████║██║     ███████║██╔██╗ ██║██║     █████╗      ██║     ██║   ██║     ")
+    time.sleep(0.1)
+    print("██╔══██╗██╔══██║██║     ██╔══██║██║╚██╗██║██║     ██╔══╝      ██║     ██║   ██║     ")
+    time.sleep(0.1)
+    print("██████╔╝██║  ██║███████╗██║  ██║██║ ╚████║╚██████╗███████╗    ███████╗██║   ╚██████╗")
+    time.sleep(0.1)
+    print("╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝    ╚══════╝╚═╝    ╚═════╝")
+    time.sleep(0.1)
+    print("                                                                                    ")
+    time.sleep(0.2)
+console_picture()
+print("Press Enter to start...")
+input()
 
 while(True):
-    if x == 23:
-        print("Всего добыто:")
+    if x == 9:
+        print("Total mined:")
         print(m)
         break
     cur.execute(f"SELECT PHONE FROM Account WHERE ID = '{x}'")
     time.sleep(0.4)
     Phone = str(cur.fetchone()[0])
-    print("Входим в аккаунт: " + Phone)
+    print("Login to account: " + Phone)
 
     cur.execute(f"SELECT API_ID FROM Account WHERE ID = '{x}'")
     time.sleep(0.4)
