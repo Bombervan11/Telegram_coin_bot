@@ -60,16 +60,5 @@ https://www.youtube.com/watch?v=ig3JxDsvYGw
 * Срок блокировки номера телефона = 6 месяцев (Если ваш аккаунт заблокировали, зарегистрировать новый аккаунт на этот же номер телефона можно будет не раньше чем через пол года)
 
 ## Поддержать автора:
-* [Donation Alerts](https://www.donationalerts.com/r/black_triangle)
 
-* Bitcoin: 1AWBMoeV8UEybQi4QrQMmeFX1sXvRLDeCn
-
-* Ethereum: 0xB151c82A264eF0EA848c120444173658BFA18Cf9
-
-* DASH: XcNtFGW1ydGLudvTPWoBvPZZxG844EvksR
-
-* Zcash: t1hCJwasRozdkoaK9HLpngoEVPQhEZpxdFT
-
-* Monero: 41iNuQsc6GjZofH3XkKwNYVSXVsrjipfVjjNR3nbsL5XjJMFTfykW1T6CkYz1StdXH2t8dhnjUTT9FwEPpbsFVxjHuuYabQ
-
-* Litecoin: LNpw5QS5fvH1NW5AMp35zzMs1FYKuAUuPP
+* Litecoin: ltc1q2h6n3l09djcw3wakawq84zfvjl85py8hhq97e5
